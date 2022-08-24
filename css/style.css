@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+:root {
+    --bs-blue: #0AA1DD;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: var(--bs-blue);
+}
+
+.sec1 {
+    background: url('../images/close-up-eye-scanning.jpg') no-repeat center/cover;
+    height: 100vh;
+}
+
+.parg {
+    margin-left: 10%;
+}
+
+.marg {
+    margin-left: 37%;
+}
+
+.first-t {
+    color: #0AA1DD;
+}
+
+.mh2 {
+    margin-left: 18%;
+}
+
+.color-h:hover {
+    color: blue;
+}
+
+.back2 {
+    background: url(../images/doctor-with-co-workers-analyzing-x-ray.jpg) no-repeat center/cover;
+    min-height: 110vh;
+}
+
+.hig {
+    min-height: 100px;
+}
+
+.high {
+    width: 160px;
+    max-height: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.high-sec4 {
+    height: 90px;
+}
+
+.why-sec1 {
+    background: black;
+    width: 50%;
+    height: 80%;
+    opacity: 40%;
+    color: white;
+}
+
+
+/*--------------------doctor page/-------------------------*/
+
+.sec1-doc {
+    background: url(../images/man-having-eye-sight-check.jpg) no-repeat center/cover;
+    height: 80vh;
+}
+
+.p-sec1-doc {
+    margin-top: 15%;
+}
+
+
+/*div contariner bottom img*/
+
+.div-sec2 {
+    background: var(--bs-blue);
+}
+
+.sec-doc {
+    color: var(--bs-blue)
+}
+
+.sec-doc-bg {
+    background: var(--bs-blue);
+}
+
+.p-sec-time {
+    height: 80%;
+}
+
+
+/*border dashed*/
+
+.bord-dash {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: #0AA1DD;
+    border-style: dashed;
+    margin-top: 5px;
+    width: 75%;
+}
+
+
+/*------gallery-------------*/
+
+.gallery {
+    background: url(../images/backround.jpg) no-repeat center/cover;
+    height: 100vh;
+}
+
+.font {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#overlay {
+    position: fixed;
+    z-index: 99999999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+}
+
+
+/*About page----------*/
+
+.about {
+    background: url(../images/about/about-bg.jpg) no-repeat center/cover;
+    height: 90vh;
+}
+
+
+/*Services page----------*/
+
+.services {
+    background: url(../images/services/serivecs-bg.jpg) no-repeat center/cover;
+    height: 90vh;
+}
+
+.why {
+    background: url(../images/services/bg.jpg) no-repeat center/cover;
+}
+
+
+/*--------------------contact page-------------------------*/
+
+.contact {
+    background: url(../images/contact/contac-bg.jpg) no-repeat center/cover;
+    height: 90vh;
+}
+
+.inp {
+    border: #fff;
+}
+
+.inp2 {
+    height: 50px;
+    border: #fff;
+}
